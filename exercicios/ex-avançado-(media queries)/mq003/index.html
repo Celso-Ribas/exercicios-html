@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Media Query</title>
+
+    <!-- Agragando as configurações de estilo em uma unica pasta ou no HTML -->
+
+    <style>
+        /* Minhas declarações gerais*/
+
+        * {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            html, body {
+                width: 100vw;
+                height: 100vh;
+                background-color:blue;
+                font-family: Arial, Helvetica, sans-serif;
+                background-size: contain;
+                background-repeat: no-repeat;
+                
+            }
+            h1 {
+                color: beige;
+                text-shadow: 3px 3px 0px black;
+                padding: 15px;
+            }
+
+
+        /* Minhas declarações para retrato */
+
+        @media screen and (orientation: portrait) {
+
+            body {
+                    background-image: url(../imagens/cev-portrait.jpg);
+                    background-position: center bottom;
+}
+            
+        }
+            
+        
+
+        /* Minhas declarações para paisagem*/
+
+        @media screen and (orientation: landscape) {
+            body {
+                    background-image: url(../imagens/cev-landscape.jpg);
+                    background-position: left bottom;
+                }
+            
+        }
+
+    </style>
+
+
+    
+</head>
+<body>
+    <h1>Mudando a orientação dos dispositivos</h1>
+
+    
+</body>
+</html>
