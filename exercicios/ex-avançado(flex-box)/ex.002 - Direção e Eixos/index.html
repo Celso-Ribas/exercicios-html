@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+         /*       DISPLAY FLEX  (Somente no container)
+
+                 4 configurações para FLEX DIRECTION
+         
+         1- FLEX DIRECTION ROW= Linha, da esquerda para a direita
+         
+         2- FLEX DIRECTION ROW REVERSE= Linha, da direita para a esquerda
+
+         3- FLEX DIRECTION COLUMN= Coluna, de cima para baixo
+
+         4- FLEX DIRECTION COLUMN REVERSE= Coluna, de baixo para cima
+
+                     EIXOS
+
+          1-MAIN AXIS = Main start, Main end
+          2-CROSS AXIS= Cross start, Cross end
+          
+          DE ACORDO COM A CONFIGURAÇÃO DO DISPLAY FLEX (FLEX DIRECTION) È FEITA A ALTERAÇÃO DOS EIXOS.
+
+          SABER SOBRE A DIREÇÃO DO EIXO É DE EXTREMA IMPORTANCIA
+
+                     
+         */
+
+
+
+
+
+        div.container {
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    
+</body>
+</html>
