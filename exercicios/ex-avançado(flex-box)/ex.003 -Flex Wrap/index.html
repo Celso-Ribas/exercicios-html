@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+        /*       (FLEX WRAP)
+          
+           1- NoWrap - Padrão para o site, ele diminui a tela sem precisar quebrar 
+        
+           2- Wrap- Esse display vai quebrar o container, e a quebra vai no sentido em que o eixo está 
+           
+           3- Wrap-Reverse - Oposto ao eixo que está configurado 
+           
+              FLEXFLOW é a simplificação da configuração básica em short-hend */
+
+        div.container {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            flex: auto;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">Exercicios de flex-box A</div>
+        <div class="item">Exercicios de flex-box B</div>
+        <div class="item">Exercicios de flex-box C</div>
+        <div class="item">Exercicios de flex-box D</div>
+        <div class="item">Exercicios de flex-box E</div>
+        <div class="item">Exercicios de flex-box F</div>
+        <div class="item">Exercicios de flex-box G</div>
+    </div>
+    
+</body>
+</html>
