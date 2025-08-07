@@ -6,9 +6,24 @@
     <title>Exercicio de Flex Box</title>
        <style>
 
+        /*   Align Itens
+        
+        1- Stretch = Esticar , ou seja, quando aumentamos 
+        o (Cross axis) --- Padrão
+        
+        2- Flex Start = Cola os itens na parte de cima do container (Cross Start)
+        
+        3- Flex End = Cola os itens na parte de baixo do container (Cross End) 
+        
+        4- Center = Vai colocar o item no centro do container (Cross-Axis)*/
+
         div.container {
             background-color: aquamarine;
+            height: 100px;
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
         }
 
         div.item {
