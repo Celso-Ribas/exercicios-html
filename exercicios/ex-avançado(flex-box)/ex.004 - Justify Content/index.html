@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+        /* Justify- Content
+        
+        1- Flex star = O item vai ficar no inicio (main start) e o restante do conteiner vazio
+        
+        2- Flex end = O item vai ficar no final (main end) e o inicio do container vazio
+        
+        3- Center = O item vai ser preenchido no meio do container
+        
+        4- Space between = Primeiro item (main start) Segundo item (main end) o restante no meio do container
+        
+        5- Space evenly = Os itens são distribuidos no meio do container deixando o (main start) e o (main end) com espaços vazios 
+        
+        6- Space around = Vai centralizar o conteudo dentro de cada item */
+
+
+
+
+
+        div.container {
+            background-color: aquamarine;
+            height: 100px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            width: 40px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    
+</body>
+</html>
