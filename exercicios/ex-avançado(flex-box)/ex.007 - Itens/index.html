@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+        div.container {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow:row wrap ;
+            height: 450px;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            padding: 30px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div#i1 {
+            order: 0;
+        }
+
+        div#i2 {
+            order: 0;
+            align-self: center;
+        }
+
+        div#i3 {
+            order: 0;
+        }
+
+        div#i4 {
+            order: 0;
+        }
+
+        div#i5 {
+            order: 0;
+            align-self: flex-end;
+        }
+
+        div#i6 {
+            order: 0;
+        }
+
+        div#i7 {
+            order: 0;
+            align-self: self-end;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item" id="i1">B</div>
+        <div class="item" id="i2">C</div>
+        <div class="item" id="i3">D</div>
+        <div class="item" id="i4">E</div>
+        <div class="item" id="i5">A</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>
+    
+</body>
+</html>
