@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+        div.container {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+            
+        }
+
+        .item#cx01 {
+
+            flex: 1 0 150px;
+        }
+        .item#cx02 {
+            
+            flex: 2 0 200px;
+        }
+        .item#cx03 {
+            
+
+            flex: 1 2 80px;
+        }
+
+        /* Ultilizando o shortand na configuração flex */
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item" id="cx01">A</div>
+        <div class="item" id="cx02">B</div>
+        <div class="item" id="cx03">C</div>
+        
+    </div>
+    
+</body>
+</html>

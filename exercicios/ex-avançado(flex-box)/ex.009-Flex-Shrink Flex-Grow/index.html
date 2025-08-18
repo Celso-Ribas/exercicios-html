@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Flex Box</title>
+       <style>
+
+        div.container {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            background-color: blueviolet;
+            
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+            
+        }
+
+        .item#cx01 {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        .item#cx02 {
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+        .item#cx03 {
+            flex-shrink: 2;
+            flex-grow: 1;
+        }
+
+        /* Flex shrink = O item pode crescer 1 , O item não pode crescer 0.
+
+           Flex grow = O item pode diminuir 1, O item não pode diminuir 0 
+           
+           Lembrando que para este exemplo o Flex Flow está com a função wrap */
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item" id="cx01">A</div>
+        <div class="item" id="cx02">B</div>
+        <div class="item" id="cx03">C</div>
+        
+    </div>
+    
+</body>
+</html>
