@@ -1,0 +1,27 @@
+     Anatomia- Grid Layout
+
+1- Grid Container= É uma caixa que vai conter varios itens.
+
+2- Grid Item= É a área interna dentro de um container, ou seja: Em um container teremos inumeros itens. 
+
+3-Grid Track= São varios itens em uma mesma linha, seja a linha na VERTICAL ou HORIZONTAL.
+
+4-Row Track= É uma Grid Track deitada.
+
+5-Column Track= É uma Grid Track em pé como uma coluna.
+
+6-Grid Lines= São as linhas que formam os itens, essas linhas podem ser Verticais ou Horizontais, Ou podem ser de cima para baixo.Essas linhas podem ser numeradas por números positivos e negativos : 
+EX:
+(1,2,3,4,5) da esquerda para a direita, ou de cima para baixo.
+(-1,-2,-3,-4,-5) da direita para a esquerda, ou de baixo para cima.
+
+         OU SEJA: PARA FAZER 6 TRACKS EU                PRECISO DE 7 lINES
+
+CADA LINHA PODE TER DOIS NOMES( 1,2,3,4,5)OU (-5,-4,-3,-2,-1)
+
+7- Grid Area= Um conjunto de itens agrupado.
+
+8- Grid Gap= O espaço entre as linhas que também pode ser configurado sem alterar o tamanho Item.
+
+
+
