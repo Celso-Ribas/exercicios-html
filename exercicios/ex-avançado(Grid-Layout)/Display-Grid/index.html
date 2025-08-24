@@ -12,7 +12,7 @@
         
     }
 
-    div {
+    div.item {
         border: 3px solid red;
         padding: 4;
     }
@@ -21,8 +21,14 @@
         height: 250px;
         background-color: blueviolet;
         display: grid;
-        grid-template-columns: auto auto;
-        gr
+        grid-template-columns: auto auto auto;
+        align-items: stretch;
+        justify-items: stretch;
+        align-content: stretch;
+        justify-content: stretch;
+        gap: 10px;
+       
+        
     
     }
 </style>
@@ -31,13 +37,13 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae possimus labore harum nobis, iste quasi mollitia voluptas aliquid temporibus aperiam repellendus ipsam pariatur hic dolores recusandae laborum, adipisci expedita.</p>
 
     <div class="container">
-        <div><a href="#"></a> Bloco A</div>
-        <div><a href="#"></a> Bloco B</div>
-        <div><a href="#"></a> Bloco C</div>
-        <div><a href="#"></a> Bloco D</div>
-        <div><a href="#"></a> Bloco E</div>
-        <div><a href="#"></a> Bloco F</div>
-        <div><a href="#"></a> Bloco G</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
     </div>
     
 </body>
