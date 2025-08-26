@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+</head>
+
+<style>
+    body {
+        background-color: aqua;
+        
+    }
+
+    div.item {
+        border: 3px solid red;
+        padding: 4;
+    }
+
+    div.container {
+        
+        background-color: blueviolet;
+        display: grid;
+        grid-template: repeat(3, 80px)/ repeat(3,auto);
+        
+        align-items: normal;
+        justify-items: normal;
+        align-content: normal;
+        justify-content: normal;
+        gap: 10px;
+       
+        
+    
+    }
+</style>
+<body>
+    <h1> Exercicio de Grid-Layout</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae possimus labore harum nobis, iste quasi mollitia voluptas aliquid temporibus aperiam repellendus ipsam pariatur hic dolores recusandae laborum, adipisci expedita.</p>
+
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+    </div>
+    
+</body>
+</html>
